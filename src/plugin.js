@@ -30,7 +30,7 @@ class Table {
   static get toolbox() {
     return {
       icon: svgIcon,
-      title: 'Table'
+      title: this.i18n === 'en' ? 'Table': '表格'
     };
   }
 
@@ -42,6 +42,7 @@ class Table {
    */
   constructor({data, config, api}) {
     this.api = api;
+    this.i18n = config.i18n || 'en'
 
     this._tableConstructor = new TableConstructor(data, config, api);
   }

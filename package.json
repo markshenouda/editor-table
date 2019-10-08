@@ -1,7 +1,7 @@
 {
-  "name": "@editorjs/table",
+  "name": "@groupher/editor-table",
   "description": "Table for Editor.js",
-  "version": "1.2.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build:dev": "webpack --mode development --watch",
     "lint": "./node_modules/.bin/eslint"
   },
-  "repository": "https://github.com/editor-js/table",
+  "repository": "https://github.com/groupher/editor-table",
   "author": {
     "name": "CodeX Team",
     "email": "team@ifmo.su"
